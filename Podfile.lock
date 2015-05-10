@@ -1,0 +1,14 @@
+PODS:
+  - JsonSerializer (0.8.1)
+
+DEPENDENCIES:
+  - JsonSerializer (from `~/Developer/iOS/Skyvive/JsonSerializer`)
+
+EXTERNAL SOURCES:
+  JsonSerializer:
+    :path: ~/Developer/iOS/Skyvive/JsonSerializer
+
+SPEC CHECKSUMS:
+  JsonSerializer: 67e29ed323f57acd1a8ac660e05a6803aba2c68d
+
+COCOAPODS: 0.37.1

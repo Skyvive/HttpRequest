@@ -1,0 +1,1174 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000BBEB3ABFE4605A2DB1845 /* Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069EA5F939FD64EC12BBEF5 /* Mappers.swift */; };
+		0013D90185556B2D0F807E3F /* Pods-HttpRequestTests-JsonSerializer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C12A330FE2E4872828A45BEC /* Pods-HttpRequestTests-JsonSerializer-dummy.m */; };
+		036D30D00CC0AF5ACEB09FA5 /* JsonSerializer+Deserialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B81896491261F3EBE147A5 /* JsonSerializer+Deserialization.swift */; };
+		091936C9CE2CD9AC9671A4BF /* String+Subscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9810F2F6D5C2E85800355E64 /* String+Subscripting.swift */; };
+		0ABB08CAAF818A0FA2587755 /* Pods-HttpRequest-iOS-JsonSerializer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BA004B69573D4DACED4B96 /* Pods-HttpRequest-iOS-JsonSerializer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1802387BEF95129EF4AE34 /* JsonValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA1315A04CB4E236DECB25 /* JsonValue.swift */; };
+		1D0D9F866EAE6535E8BD6990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D773B3248A37133AB63D7F24 /* Foundation.framework */; };
+		1E8DE6F6C551707F89F2AB94 /* JsonMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86CE84A568CA95CDD9FFF3 /* JsonMapper.swift */; };
+		37D8CF480E40714F888430D9 /* JsonSerializer+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99D68ADBECE34DFC483211 /* JsonSerializer+Validation.swift */; };
+		37E10552637D2514FA91DD05 /* JsonSerializer+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7E8A9AD48C3572B482AF1 /* JsonSerializer+Serialization.swift */; };
+		3B8B12D52774DED3F4138A0E /* JsonValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA1315A04CB4E236DECB25 /* JsonValue.swift */; };
+		3BCEB8822E7AAD8A9B92AC68 /* Pods-HttpRequest-OSX-JsonSerializer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FC2D9793996AAE66764D17 /* Pods-HttpRequest-OSX-JsonSerializer-dummy.m */; };
+		47A176C7875B65D7DD0FD405 /* JsonSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2376F97CD7377EBC0E45F82 /* JsonSerializer.swift */; };
+		4F151C0611E0D9A1AAEB06C4 /* String+Subscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9810F2F6D5C2E85800355E64 /* String+Subscripting.swift */; };
+		52936537BE62452CB1D75879 /* Pods-HttpRequest-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD00FDBF18A65090EDE5F44 /* Pods-HttpRequest-iOS-dummy.m */; };
+		5F9885B082EF7290C187FC86 /* Pods-HttpRequest-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF235A64FEC93459B193AA9B /* Pods-HttpRequest-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		609BB01157F97491403424B5 /* JsonSerializer+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7E8A9AD48C3572B482AF1 /* JsonSerializer+Serialization.swift */; };
+		6328A3CF1DB708F72546A3C7 /* JsonSerializer+Validation+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2983EC7A03B52D1A5211CC /* JsonSerializer+Validation+Internal.swift */; };
+		66FB5DB6E4BF85890B4B6FD3 /* Pods-HttpRequestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22ADC4890D6EC38EA41CC3E9 /* Pods-HttpRequestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DB0520BFC8255CF25606D07 /* Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069EA5F939FD64EC12BBEF5 /* Mappers.swift */; };
+		76B5AC1E26B1B7DF6C5EF5AD /* Pods-HttpRequestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BCC1E9B7A12AEF73F1CC4E /* Pods-HttpRequestTests-dummy.m */; };
+		7C87509D32A2922CFDBAE5D7 /* Pods-HttpRequestTests-JsonSerializer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C82A835FF43129EBF8AA7E47 /* Pods-HttpRequestTests-JsonSerializer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F20094F3652DF1D5D3B4730 /* JsonSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = A84C8BB487A15C64E379D614 /* JsonSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80C8D3136952CF0017847FA2 /* JsonSerializer+Deserialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B81896491261F3EBE147A5 /* JsonSerializer+Deserialization.swift */; };
+		8392C8D6B964192F316B17DD /* JsonMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86CE84A568CA95CDD9FFF3 /* JsonMapper.swift */; };
+		87CA9A75309DF87BC0E2DB30 /* JsonSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2376F97CD7377EBC0E45F82 /* JsonSerializer.swift */; };
+		8C812DCF8CB9DCCA7860C5CD /* JsonSerializer+Validation+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2983EC7A03B52D1A5211CC /* JsonSerializer+Validation+Internal.swift */; };
+		90B049B8F2FF9368CE4B3225 /* JsonSerializer+KeyMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9906181D8FF0CBEFD390B8 /* JsonSerializer+KeyMapping.swift */; };
+		930006245DB06AEFBB0DFDDC /* JsonSerializer+KeyMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9906181D8FF0CBEFD390B8 /* JsonSerializer+KeyMapping.swift */; };
+		943702007ACD8F7071862F41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D773B3248A37133AB63D7F24 /* Foundation.framework */; };
+		97D8D6E212998BA977AF39D3 /* JsonSerializer+Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CEF40082456671AB13BC6C /* JsonSerializer+Mappers.swift */; };
+		9B20F66A078CA224C0BA74C9 /* Pods-HttpRequest-OSX-JsonSerializer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B673EFA85E47142970A308 /* Pods-HttpRequest-OSX-JsonSerializer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F45756F88F251CBF2A9656E /* JsonSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2376F97CD7377EBC0E45F82 /* JsonSerializer.swift */; };
+		A561434C9D6AF89CAFDD098C /* Pods-HttpRequest-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DBFF431DA7919CE5F1B91D /* Pods-HttpRequest-OSX-dummy.m */; };
+		A9C070A4B9163A0D9B65030B /* String+Subscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9810F2F6D5C2E85800355E64 /* String+Subscripting.swift */; };
+		AADC922B76C0DC31F93060D9 /* JsonSerializer+Validation+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2983EC7A03B52D1A5211CC /* JsonSerializer+Validation+Internal.swift */; };
+		B121DC168F2B0B70CBCA591B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D773B3248A37133AB63D7F24 /* Foundation.framework */; };
+		B309796C8E553CA74CC7AFFE /* JsonValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA1315A04CB4E236DECB25 /* JsonValue.swift */; };
+		C0F4892C663F8687FD3EC62E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D773B3248A37133AB63D7F24 /* Foundation.framework */; };
+		C68DF11B0D7EB4370DB0C4CA /* JsonSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = A84C8BB487A15C64E379D614 /* JsonSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C746D3DF152E14F4FAB2B8BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D773B3248A37133AB63D7F24 /* Foundation.framework */; };
+		C78B92B4AEF1B1DB7DF47D4E /* JsonSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = A84C8BB487A15C64E379D614 /* JsonSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9E20CDFA173491FA8D33782 /* JsonMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86CE84A568CA95CDD9FFF3 /* JsonMapper.swift */; };
+		CA521E2017E5000A083E9D6F /* JsonSerializer+Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CEF40082456671AB13BC6C /* JsonSerializer+Mappers.swift */; };
+		D32E66C1B6E24DD98335C048 /* Pods-HttpRequest-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D54D93714B10E181396910C9 /* Pods-HttpRequest-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB931A272E27DFFB06CA6963 /* JsonSerializer+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7E8A9AD48C3572B482AF1 /* JsonSerializer+Serialization.swift */; };
+		DDAAFA7FFBEA2F78F9A9BA4E /* JsonSerializer+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99D68ADBECE34DFC483211 /* JsonSerializer+Validation.swift */; };
+		E24035577FF375E1A15A11C5 /* Pods-HttpRequest-iOS-JsonSerializer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EFD80B12DE54C2E40D5A5A /* Pods-HttpRequest-iOS-JsonSerializer-dummy.m */; };
+		E5804604D99D2869A497D9AD /* Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069EA5F939FD64EC12BBEF5 /* Mappers.swift */; };
+		EA4FF583F61126A6C0298622 /* JsonSerializer+Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CEF40082456671AB13BC6C /* JsonSerializer+Mappers.swift */; };
+		F1E0BE9BFDD947FDE11FD4E1 /* JsonSerializer+Deserialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B81896491261F3EBE147A5 /* JsonSerializer+Deserialization.swift */; };
+		F2703FD1AA6BDB258162F083 /* JsonSerializer+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99D68ADBECE34DFC483211 /* JsonSerializer+Validation.swift */; };
+		F718C8083882A804B2FEFD78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D773B3248A37133AB63D7F24 /* Foundation.framework */; };
+		FEB618BECA03A6F859235351 /* JsonSerializer+KeyMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9906181D8FF0CBEFD390B8 /* JsonSerializer+KeyMapping.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		099100581C4598D0A657AE5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A435B3DC8D53B79536E2A6E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7CCE250188B60AAA7068938;
+			remoteInfo = "Pods-HttpRequest-OSX-JsonSerializer";
+		};
+		4B31BAA599963186B9CA0735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A435B3DC8D53B79536E2A6E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4502BF6B81F3C9C207913D76;
+			remoteInfo = "Pods-HttpRequestTests-JsonSerializer";
+		};
+		6E6682AA5C46783726E48909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A435B3DC8D53B79536E2A6E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64BD9C328EE02D9C6DE33539;
+			remoteInfo = "Pods-HttpRequest-iOS-JsonSerializer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0069EA5F939FD64EC12BBEF5 /* Mappers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Mappers.swift; sourceTree = "<group>"; };
+		006EFDB2A6BC33C03CA4439E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		06413FD349CE4774AE80391B /* Pods-HttpRequestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HttpRequestTests-frameworks.sh"; sourceTree = "<group>"; };
+		083D4840D1FB327A98596011 /* Pods-HttpRequest-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HttpRequest-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		0D86CE84A568CA95CDD9FFF3 /* JsonMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JsonMapper.swift; sourceTree = "<group>"; };
+		11629C91FD202A4446247717 /* Pods-HttpRequest-OSX-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HttpRequest-OSX-resources.sh"; sourceTree = "<group>"; };
+		13E632D9F722A12180C57080 /* Pods-HttpRequest-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HttpRequest-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		148A2B18A788AE7A96203FE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-HttpRequestTests-JsonSerializer/Info.plist"; sourceTree = "<group>"; };
+		22ADC4890D6EC38EA41CC3E9 /* Pods-HttpRequestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HttpRequestTests-umbrella.h"; sourceTree = "<group>"; };
+		25E68A98AA7C2E790833A9EC /* Pods-HttpRequest-iOS-JsonSerializer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-HttpRequest-iOS-JsonSerializer-prefix.pch"; path = "../Pods-HttpRequest-iOS-JsonSerializer/Pods-HttpRequest-iOS-JsonSerializer-prefix.pch"; sourceTree = "<group>"; };
+		26721497925BEF7155EE422C /* Pods-HttpRequest-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HttpRequest-iOS-resources.sh"; sourceTree = "<group>"; };
+		275793E5B0B8316BA91E76F6 /* Pods-HttpRequest-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HttpRequest-iOS.modulemap"; sourceTree = "<group>"; };
+		30E68B266DBD63DB8906D2A8 /* JsonSerializer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JsonSerializer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3394D1EB90358093ABB67E97 /* Pods-HttpRequest-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HttpRequest-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		34438118F3F7CA793870E4FF /* Pods-HttpRequestTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HttpRequestTests-environment.h"; sourceTree = "<group>"; };
+		35DBFF431DA7919CE5F1B91D /* Pods-HttpRequest-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HttpRequest-OSX-dummy.m"; sourceTree = "<group>"; };
+		3D5F98EC24EEA07691A1F812 /* Pods_HttpRequest_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HttpRequest_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BCC1E9B7A12AEF73F1CC4E /* Pods-HttpRequestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HttpRequestTests-dummy.m"; sourceTree = "<group>"; };
+		481E300C2CA73C4EE25CACA8 /* Pods-HttpRequest-OSX-JsonSerializer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HttpRequest-OSX-JsonSerializer-prefix.pch"; sourceTree = "<group>"; };
+		48CE8278E1E9F780A7AF9FD2 /* Pods-HttpRequestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HttpRequestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5092687B4B330EC11E7523BC /* Pods-HttpRequestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HttpRequestTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A31AE47A03227D5D9DC2F22 /* Pods-HttpRequest-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HttpRequest-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		5B8CC5832947EE616B9F02C1 /* Pods-HttpRequest-OSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HttpRequest-OSX-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F6D381AAECBF62BCCF95591 /* Pods-HttpRequestTests-JsonSerializer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-HttpRequestTests-JsonSerializer.modulemap"; path = "../Pods-HttpRequestTests-JsonSerializer/Pods-HttpRequestTests-JsonSerializer.modulemap"; sourceTree = "<group>"; };
+		61984E50EBB16CA335ABB8E0 /* Pods-HttpRequest-iOS-JsonSerializer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-HttpRequest-iOS-JsonSerializer.modulemap"; path = "../Pods-HttpRequest-iOS-JsonSerializer/Pods-HttpRequest-iOS-JsonSerializer.modulemap"; sourceTree = "<group>"; };
+		627789F54F285DB7850A7D6C /* Pods-HttpRequest-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HttpRequest-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		63BA004B69573D4DACED4B96 /* Pods-HttpRequest-iOS-JsonSerializer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-HttpRequest-iOS-JsonSerializer-umbrella.h"; path = "../Pods-HttpRequest-iOS-JsonSerializer/Pods-HttpRequest-iOS-JsonSerializer-umbrella.h"; sourceTree = "<group>"; };
+		647A7E124901F6A8D4F14984 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B81896491261F3EBE147A5 /* JsonSerializer+Deserialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JsonSerializer+Deserialization.swift"; sourceTree = "<group>"; };
+		65C465E46FAB1E5D210A23D9 /* Pods_HttpRequestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HttpRequestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6669EAD562EB9E22488C0EB9 /* Pods-HttpRequestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HttpRequestTests-resources.sh"; sourceTree = "<group>"; };
+		67B673EFA85E47142970A308 /* Pods-HttpRequest-OSX-JsonSerializer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HttpRequest-OSX-JsonSerializer-umbrella.h"; sourceTree = "<group>"; };
+		6B9990293CCED43C8D8FEF86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C7E8A9AD48C3572B482AF1 /* JsonSerializer+Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JsonSerializer+Serialization.swift"; sourceTree = "<group>"; };
+		7C355EECA80BAEB651E64950 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE53A2DB16FC772C9419646 /* Pods-HttpRequestTests-JsonSerializer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpRequestTests-JsonSerializer.xcconfig"; path = "../Pods-HttpRequestTests-JsonSerializer/Pods-HttpRequestTests-JsonSerializer.xcconfig"; sourceTree = "<group>"; };
+		80D896FA9BE71800B3FC9CB2 /* Pods-HttpRequestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HttpRequestTests.modulemap"; sourceTree = "<group>"; };
+		846C8C689E774F932CBE33D4 /* Pods-HttpRequest-OSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HttpRequest-OSX-acknowledgements.plist"; sourceTree = "<group>"; };
+		88C459E2D10495B1B45E4358 /* Pods-HttpRequest-iOS-JsonSerializer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpRequest-iOS-JsonSerializer-Private.xcconfig"; path = "../Pods-HttpRequest-iOS-JsonSerializer/Pods-HttpRequest-iOS-JsonSerializer-Private.xcconfig"; sourceTree = "<group>"; };
+		895D7CC3DC798769D360C8C1 /* Pods-HttpRequest-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HttpRequest-iOS-frameworks.sh"; sourceTree = "<group>"; };
+		9364275CE57A3E4B29D0128E /* Pods-HttpRequest-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HttpRequest-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		95B08A437665403FB946058D /* Pods-HttpRequestTests-JsonSerializer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-HttpRequestTests-JsonSerializer-prefix.pch"; path = "../Pods-HttpRequestTests-JsonSerializer/Pods-HttpRequestTests-JsonSerializer-prefix.pch"; sourceTree = "<group>"; };
+		96EFD80B12DE54C2E40D5A5A /* Pods-HttpRequest-iOS-JsonSerializer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-HttpRequest-iOS-JsonSerializer-dummy.m"; path = "../Pods-HttpRequest-iOS-JsonSerializer/Pods-HttpRequest-iOS-JsonSerializer-dummy.m"; sourceTree = "<group>"; };
+		9810F2F6D5C2E85800355E64 /* String+Subscripting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Subscripting.swift"; sourceTree = "<group>"; };
+		9C64F6015162895A05679025 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-HttpRequest-iOS-JsonSerializer/Info.plist"; sourceTree = "<group>"; };
+		A208372CD5F45CD110996E4D /* Pods-HttpRequestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HttpRequestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A84C8BB487A15C64E379D614 /* JsonSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JsonSerializer.h; sourceTree = "<group>"; };
+		B5DA1315A04CB4E236DECB25 /* JsonValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JsonValue.swift; sourceTree = "<group>"; };
+		B9139D5B10E925C74147A795 /* JsonSerializer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JsonSerializer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8529633183D167366E749D /* Pods-HttpRequest-iOS-JsonSerializer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpRequest-iOS-JsonSerializer.xcconfig"; path = "../Pods-HttpRequest-iOS-JsonSerializer/Pods-HttpRequest-iOS-JsonSerializer.xcconfig"; sourceTree = "<group>"; };
+		BC1E6F8538788A5C8C01352F /* Pods-HttpRequestTests-JsonSerializer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpRequestTests-JsonSerializer-Private.xcconfig"; path = "../Pods-HttpRequestTests-JsonSerializer/Pods-HttpRequestTests-JsonSerializer-Private.xcconfig"; sourceTree = "<group>"; };
+		C12A330FE2E4872828A45BEC /* Pods-HttpRequestTests-JsonSerializer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-HttpRequestTests-JsonSerializer-dummy.m"; path = "../Pods-HttpRequestTests-JsonSerializer/Pods-HttpRequestTests-JsonSerializer-dummy.m"; sourceTree = "<group>"; };
+		C2C1268AD143EDB5D0BB73BD /* Pods-HttpRequest-OSX-JsonSerializer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HttpRequest-OSX-JsonSerializer-Private.xcconfig"; sourceTree = "<group>"; };
+		C82A835FF43129EBF8AA7E47 /* Pods-HttpRequestTests-JsonSerializer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-HttpRequestTests-JsonSerializer-umbrella.h"; path = "../Pods-HttpRequestTests-JsonSerializer/Pods-HttpRequestTests-JsonSerializer-umbrella.h"; sourceTree = "<group>"; };
+		C9CEF40082456671AB13BC6C /* JsonSerializer+Mappers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JsonSerializer+Mappers.swift"; sourceTree = "<group>"; };
+		CE50676F0FDC2A3E5AF2758E /* Pods_HttpRequest_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HttpRequest_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5A2828E406D85A7250BCA8 /* Pods-HttpRequest-OSX-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HttpRequest-OSX-environment.h"; sourceTree = "<group>"; };
+		D2376F97CD7377EBC0E45F82 /* JsonSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JsonSerializer.swift; sourceTree = "<group>"; };
+		D54D93714B10E181396910C9 /* Pods-HttpRequest-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HttpRequest-OSX-umbrella.h"; sourceTree = "<group>"; };
+		D5FC2D9793996AAE66764D17 /* Pods-HttpRequest-OSX-JsonSerializer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HttpRequest-OSX-JsonSerializer-dummy.m"; sourceTree = "<group>"; };
+		D773B3248A37133AB63D7F24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DE656E006E4D5196E0044FF0 /* JsonSerializer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JsonSerializer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F74AC177E2DF243D4CD7D7 /* Pods-HttpRequest-OSX-JsonSerializer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HttpRequest-OSX-JsonSerializer.modulemap"; sourceTree = "<group>"; };
+		E66E0F3CF5E828DFB5EDBC28 /* Pods-HttpRequestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HttpRequestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E801BD2FC2A911411474E2C6 /* Pods-HttpRequest-OSX-JsonSerializer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HttpRequest-OSX-JsonSerializer.xcconfig"; sourceTree = "<group>"; };
+		ED97F688DF0AA6DF6471EF53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF235A64FEC93459B193AA9B /* Pods-HttpRequest-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HttpRequest-iOS-umbrella.h"; sourceTree = "<group>"; };
+		F646DFD41B2B7FB562217289 /* Pods-HttpRequest-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HttpRequest-OSX.modulemap"; sourceTree = "<group>"; };
+		F96DD9C4709C86D867CF1937 /* Pods-HttpRequest-iOS-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HttpRequest-iOS-environment.h"; sourceTree = "<group>"; };
+		FB2983EC7A03B52D1A5211CC /* JsonSerializer+Validation+Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JsonSerializer+Validation+Internal.swift"; sourceTree = "<group>"; };
+		FB9906181D8FF0CBEFD390B8 /* JsonSerializer+KeyMapping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JsonSerializer+KeyMapping.swift"; sourceTree = "<group>"; };
+		FDC80EFE19BD7805A55BD9ED /* Pods-HttpRequest-OSX-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HttpRequest-OSX-frameworks.sh"; sourceTree = "<group>"; };
+		FF99D68ADBECE34DFC483211 /* JsonSerializer+Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JsonSerializer+Validation.swift"; sourceTree = "<group>"; };
+		FFD00FDBF18A65090EDE5F44 /* Pods-HttpRequest-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HttpRequest-iOS-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		167835F1952C779ACB7C47CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B121DC168F2B0B70CBCA591B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486B90C2E46A1A94CD5C1B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F718C8083882A804B2FEFD78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B363CBEB642047A7CA10753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0D9F866EAE6535E8BD6990 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED0808731470F111648ADD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C746D3DF152E14F4FAB2B8BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11A0CA6A7B296F8B1918185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943702007ACD8F7071862F41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93F2CF622F7FA7625966744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F4892C663F8687FD3EC62E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27755EA4A70296A815A910F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38BE6BA262B36075A9C3AA1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C00AA7ACF31C7C35FD8F555 /* Pods-HttpRequestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C355EECA80BAEB651E64950 /* Info.plist */,
+				80D896FA9BE71800B3FC9CB2 /* Pods-HttpRequestTests.modulemap */,
+				48CE8278E1E9F780A7AF9FD2 /* Pods-HttpRequestTests-acknowledgements.markdown */,
+				A208372CD5F45CD110996E4D /* Pods-HttpRequestTests-acknowledgements.plist */,
+				46BCC1E9B7A12AEF73F1CC4E /* Pods-HttpRequestTests-dummy.m */,
+				34438118F3F7CA793870E4FF /* Pods-HttpRequestTests-environment.h */,
+				06413FD349CE4774AE80391B /* Pods-HttpRequestTests-frameworks.sh */,
+				6669EAD562EB9E22488C0EB9 /* Pods-HttpRequestTests-resources.sh */,
+				22ADC4890D6EC38EA41CC3E9 /* Pods-HttpRequestTests-umbrella.h */,
+				E66E0F3CF5E828DFB5EDBC28 /* Pods-HttpRequestTests.debug.xcconfig */,
+				5092687B4B330EC11E7523BC /* Pods-HttpRequestTests.release.xcconfig */,
+			);
+			name = "Pods-HttpRequestTests";
+			path = "Target Support Files/Pods-HttpRequestTests";
+			sourceTree = "<group>";
+		};
+		38BE6BA262B36075A9C3AA1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D773B3248A37133AB63D7F24 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		462064CFF02412616DB9B53E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C64F6015162895A05679025 /* Info.plist */,
+				148A2B18A788AE7A96203FE3 /* Info.plist */,
+				ED97F688DF0AA6DF6471EF53 /* Info.plist */,
+				E2F74AC177E2DF243D4CD7D7 /* Pods-HttpRequest-OSX-JsonSerializer.modulemap */,
+				E801BD2FC2A911411474E2C6 /* Pods-HttpRequest-OSX-JsonSerializer.xcconfig */,
+				C2C1268AD143EDB5D0BB73BD /* Pods-HttpRequest-OSX-JsonSerializer-Private.xcconfig */,
+				D5FC2D9793996AAE66764D17 /* Pods-HttpRequest-OSX-JsonSerializer-dummy.m */,
+				481E300C2CA73C4EE25CACA8 /* Pods-HttpRequest-OSX-JsonSerializer-prefix.pch */,
+				67B673EFA85E47142970A308 /* Pods-HttpRequest-OSX-JsonSerializer-umbrella.h */,
+				61984E50EBB16CA335ABB8E0 /* Pods-HttpRequest-iOS-JsonSerializer.modulemap */,
+				BA8529633183D167366E749D /* Pods-HttpRequest-iOS-JsonSerializer.xcconfig */,
+				88C459E2D10495B1B45E4358 /* Pods-HttpRequest-iOS-JsonSerializer-Private.xcconfig */,
+				96EFD80B12DE54C2E40D5A5A /* Pods-HttpRequest-iOS-JsonSerializer-dummy.m */,
+				25E68A98AA7C2E790833A9EC /* Pods-HttpRequest-iOS-JsonSerializer-prefix.pch */,
+				63BA004B69573D4DACED4B96 /* Pods-HttpRequest-iOS-JsonSerializer-umbrella.h */,
+				5F6D381AAECBF62BCCF95591 /* Pods-HttpRequestTests-JsonSerializer.modulemap */,
+				7FE53A2DB16FC772C9419646 /* Pods-HttpRequestTests-JsonSerializer.xcconfig */,
+				BC1E6F8538788A5C8C01352F /* Pods-HttpRequestTests-JsonSerializer-Private.xcconfig */,
+				C12A330FE2E4872828A45BEC /* Pods-HttpRequestTests-JsonSerializer-dummy.m */,
+				95B08A437665403FB946058D /* Pods-HttpRequestTests-JsonSerializer-prefix.pch */,
+				C82A835FF43129EBF8AA7E47 /* Pods-HttpRequestTests-JsonSerializer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../HttpRequest/Pods/Target Support Files/Pods-HttpRequest-OSX-JsonSerializer";
+			sourceTree = "<group>";
+		};
+		7BA0D6B2D2DA298147C4CB28 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48F5F8C8D1549FF547CF18C /* Pods-HttpRequest-OSX */,
+				C4FBBECD394ED57CF05A2FFF /* Pods-HttpRequest-iOS */,
+				2C00AA7ACF31C7C35FD8F555 /* Pods-HttpRequestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		96B2DA26FEB3061D65D6059C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE14DDCD115D96C5C1FA50C1 /* JsonSerializer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BE14DDCD115D96C5C1FA50C1 /* JsonSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				E695152B0AAEB39713739423 /* JsonSerializer */,
+				462064CFF02412616DB9B53E /* Support Files */,
+			);
+			name = JsonSerializer;
+			path = /Users/Brad/Developer/iOS/Skyvive/JsonSerializer;
+			sourceTree = "<absolute>";
+		};
+		C1A0368D31A9D4D22EB774F5 = {
+			isa = PBXGroup;
+			children = (
+				006EFDB2A6BC33C03CA4439E /* Podfile */,
+				96B2DA26FEB3061D65D6059C /* Development Pods */,
+				27755EA4A70296A815A910F1 /* Frameworks */,
+				D9D26C26A9B8B3DE38FA70A6 /* Products */,
+				7BA0D6B2D2DA298147C4CB28 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C48F5F8C8D1549FF547CF18C /* Pods-HttpRequest-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				6B9990293CCED43C8D8FEF86 /* Info.plist */,
+				F646DFD41B2B7FB562217289 /* Pods-HttpRequest-OSX.modulemap */,
+				5B8CC5832947EE616B9F02C1 /* Pods-HttpRequest-OSX-acknowledgements.markdown */,
+				846C8C689E774F932CBE33D4 /* Pods-HttpRequest-OSX-acknowledgements.plist */,
+				35DBFF431DA7919CE5F1B91D /* Pods-HttpRequest-OSX-dummy.m */,
+				CF5A2828E406D85A7250BCA8 /* Pods-HttpRequest-OSX-environment.h */,
+				FDC80EFE19BD7805A55BD9ED /* Pods-HttpRequest-OSX-frameworks.sh */,
+				11629C91FD202A4446247717 /* Pods-HttpRequest-OSX-resources.sh */,
+				D54D93714B10E181396910C9 /* Pods-HttpRequest-OSX-umbrella.h */,
+				3394D1EB90358093ABB67E97 /* Pods-HttpRequest-OSX.debug.xcconfig */,
+				5A31AE47A03227D5D9DC2F22 /* Pods-HttpRequest-OSX.release.xcconfig */,
+			);
+			name = "Pods-HttpRequest-OSX";
+			path = "Target Support Files/Pods-HttpRequest-OSX";
+			sourceTree = "<group>";
+		};
+		C4FBBECD394ED57CF05A2FFF /* Pods-HttpRequest-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				647A7E124901F6A8D4F14984 /* Info.plist */,
+				275793E5B0B8316BA91E76F6 /* Pods-HttpRequest-iOS.modulemap */,
+				13E632D9F722A12180C57080 /* Pods-HttpRequest-iOS-acknowledgements.markdown */,
+				627789F54F285DB7850A7D6C /* Pods-HttpRequest-iOS-acknowledgements.plist */,
+				FFD00FDBF18A65090EDE5F44 /* Pods-HttpRequest-iOS-dummy.m */,
+				F96DD9C4709C86D867CF1937 /* Pods-HttpRequest-iOS-environment.h */,
+				895D7CC3DC798769D360C8C1 /* Pods-HttpRequest-iOS-frameworks.sh */,
+				26721497925BEF7155EE422C /* Pods-HttpRequest-iOS-resources.sh */,
+				EF235A64FEC93459B193AA9B /* Pods-HttpRequest-iOS-umbrella.h */,
+				9364275CE57A3E4B29D0128E /* Pods-HttpRequest-iOS.debug.xcconfig */,
+				083D4840D1FB327A98596011 /* Pods-HttpRequest-iOS.release.xcconfig */,
+			);
+			name = "Pods-HttpRequest-iOS";
+			path = "Target Support Files/Pods-HttpRequest-iOS";
+			sourceTree = "<group>";
+		};
+		D9D26C26A9B8B3DE38FA70A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E68B266DBD63DB8906D2A8 /* JsonSerializer.framework */,
+				DE656E006E4D5196E0044FF0 /* JsonSerializer.framework */,
+				B9139D5B10E925C74147A795 /* JsonSerializer.framework */,
+				65C465E46FAB1E5D210A23D9 /* Pods_HttpRequestTests.framework */,
+				CE50676F0FDC2A3E5AF2758E /* Pods_HttpRequest_OSX.framework */,
+				3D5F98EC24EEA07691A1F812 /* Pods_HttpRequest_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E695152B0AAEB39713739423 /* JsonSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				0D86CE84A568CA95CDD9FFF3 /* JsonMapper.swift */,
+				A84C8BB487A15C64E379D614 /* JsonSerializer.h */,
+				D2376F97CD7377EBC0E45F82 /* JsonSerializer.swift */,
+				64B81896491261F3EBE147A5 /* JsonSerializer+Deserialization.swift */,
+				FB9906181D8FF0CBEFD390B8 /* JsonSerializer+KeyMapping.swift */,
+				C9CEF40082456671AB13BC6C /* JsonSerializer+Mappers.swift */,
+				75C7E8A9AD48C3572B482AF1 /* JsonSerializer+Serialization.swift */,
+				FF99D68ADBECE34DFC483211 /* JsonSerializer+Validation.swift */,
+				FB2983EC7A03B52D1A5211CC /* JsonSerializer+Validation+Internal.swift */,
+				B5DA1315A04CB4E236DECB25 /* JsonValue.swift */,
+				0069EA5F939FD64EC12BBEF5 /* Mappers.swift */,
+				9810F2F6D5C2E85800355E64 /* String+Subscripting.swift */,
+			);
+			path = JsonSerializer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		43C2BA2E264276F09E9303E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68DF11B0D7EB4370DB0C4CA /* JsonSerializer.h in Headers */,
+				9B20F66A078CA224C0BA74C9 /* Pods-HttpRequest-OSX-JsonSerializer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CC87B59C1EE45E1A2D594F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32E66C1B6E24DD98335C048 /* Pods-HttpRequest-OSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8186B44F1C52472807190F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9885B082EF7290C187FC86 /* Pods-HttpRequest-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20ACF21BB44988669D91C14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78B92B4AEF1B1DB7DF47D4E /* JsonSerializer.h in Headers */,
+				0ABB08CAAF818A0FA2587755 /* Pods-HttpRequest-iOS-JsonSerializer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3856030CCF4AEAC377761D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F20094F3652DF1D5D3B4730 /* JsonSerializer.h in Headers */,
+				7C87509D32A2922CFDBAE5D7 /* Pods-HttpRequestTests-JsonSerializer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10B17EF8715A3C397ECA0B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FB5DB6E4BF85890B4B6FD3 /* Pods-HttpRequestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4502BF6B81F3C9C207913D76 /* Pods-HttpRequestTests-JsonSerializer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB457E02FE7D47F109CD513 /* Build configuration list for PBXNativeTarget "Pods-HttpRequestTests-JsonSerializer" */;
+			buildPhases = (
+				4883A8AB8F5F8F3666CC4646 /* Sources */,
+				E11A0CA6A7B296F8B1918185 /* Frameworks */,
+				E3856030CCF4AEAC377761D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HttpRequestTests-JsonSerializer";
+			productName = "Pods-HttpRequestTests-JsonSerializer";
+			productReference = B9139D5B10E925C74147A795 /* JsonSerializer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50B6966AB41D7F6CF903E5EB /* Pods-HttpRequest-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB3C9FD1B879FF237DAD7FF /* Build configuration list for PBXNativeTarget "Pods-HttpRequest-OSX" */;
+			buildPhases = (
+				CE5B1C53FE4C7EAFA8BEC839 /* Sources */,
+				E93F2CF622F7FA7625966744 /* Frameworks */,
+				70CC87B59C1EE45E1A2D594F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796E7C31E7587740A039F3FF /* PBXTargetDependency */,
+			);
+			name = "Pods-HttpRequest-OSX";
+			productName = "Pods-HttpRequest-OSX";
+			productReference = CE50676F0FDC2A3E5AF2758E /* Pods_HttpRequest_OSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64BD9C328EE02D9C6DE33539 /* Pods-HttpRequest-iOS-JsonSerializer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3229AF58F12C972F002EABDD /* Build configuration list for PBXNativeTarget "Pods-HttpRequest-iOS-JsonSerializer" */;
+			buildPhases = (
+				018B133CEC35645924754AEC /* Sources */,
+				4B363CBEB642047A7CA10753 /* Frameworks */,
+				C20ACF21BB44988669D91C14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HttpRequest-iOS-JsonSerializer";
+			productName = "Pods-HttpRequest-iOS-JsonSerializer";
+			productReference = DE656E006E4D5196E0044FF0 /* JsonSerializer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9BE62B4F0F9C68EE70E9F9D /* Pods-HttpRequest-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA202266D04DE6785F7AF81D /* Build configuration list for PBXNativeTarget "Pods-HttpRequest-iOS" */;
+			buildPhases = (
+				0DEC0D799B0959C26ADF7F0B /* Sources */,
+				486B90C2E46A1A94CD5C1B42 /* Frameworks */,
+				B8186B44F1C52472807190F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037870DAE56B7EA0CA9C6A68 /* PBXTargetDependency */,
+			);
+			name = "Pods-HttpRequest-iOS";
+			productName = "Pods-HttpRequest-iOS";
+			productReference = 3D5F98EC24EEA07691A1F812 /* Pods_HttpRequest_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7CCE250188B60AAA7068938 /* Pods-HttpRequest-OSX-JsonSerializer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1A6E9FBBF0983115A029842 /* Build configuration list for PBXNativeTarget "Pods-HttpRequest-OSX-JsonSerializer" */;
+			buildPhases = (
+				2C9F57135CBD93160485B670 /* Sources */,
+				9ED0808731470F111648ADD1 /* Frameworks */,
+				43C2BA2E264276F09E9303E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HttpRequest-OSX-JsonSerializer";
+			productName = "Pods-HttpRequest-OSX-JsonSerializer";
+			productReference = 30E68B266DBD63DB8906D2A8 /* JsonSerializer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC675074C5B95757FFF80519 /* Pods-HttpRequestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499F894388E25214BFFB998C /* Build configuration list for PBXNativeTarget "Pods-HttpRequestTests" */;
+			buildPhases = (
+				E134B9A7272FD7BE2AF88D78 /* Sources */,
+				167835F1952C779ACB7C47CE /* Frameworks */,
+				F10B17EF8715A3C397ECA0B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F120103CEA5419FB6747B4BD /* PBXTargetDependency */,
+			);
+			name = "Pods-HttpRequestTests";
+			productName = "Pods-HttpRequestTests";
+			productReference = 65C465E46FAB1E5D210A23D9 /* Pods_HttpRequestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A435B3DC8D53B79536E2A6E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = F482F6673A7A037380A62813 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1A0368D31A9D4D22EB774F5;
+			productRefGroup = D9D26C26A9B8B3DE38FA70A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50B6966AB41D7F6CF903E5EB /* Pods-HttpRequest-OSX */,
+				D7CCE250188B60AAA7068938 /* Pods-HttpRequest-OSX-JsonSerializer */,
+				C9BE62B4F0F9C68EE70E9F9D /* Pods-HttpRequest-iOS */,
+				64BD9C328EE02D9C6DE33539 /* Pods-HttpRequest-iOS-JsonSerializer */,
+				FC675074C5B95757FFF80519 /* Pods-HttpRequestTests */,
+				4502BF6B81F3C9C207913D76 /* Pods-HttpRequestTests-JsonSerializer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		018B133CEC35645924754AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E20CDFA173491FA8D33782 /* JsonMapper.swift in Sources */,
+				036D30D00CC0AF5ACEB09FA5 /* JsonSerializer+Deserialization.swift in Sources */,
+				930006245DB06AEFBB0DFDDC /* JsonSerializer+KeyMapping.swift in Sources */,
+				EA4FF583F61126A6C0298622 /* JsonSerializer+Mappers.swift in Sources */,
+				DB931A272E27DFFB06CA6963 /* JsonSerializer+Serialization.swift in Sources */,
+				8C812DCF8CB9DCCA7860C5CD /* JsonSerializer+Validation+Internal.swift in Sources */,
+				DDAAFA7FFBEA2F78F9A9BA4E /* JsonSerializer+Validation.swift in Sources */,
+				47A176C7875B65D7DD0FD405 /* JsonSerializer.swift in Sources */,
+				B309796C8E553CA74CC7AFFE /* JsonValue.swift in Sources */,
+				000BBEB3ABFE4605A2DB1845 /* Mappers.swift in Sources */,
+				E24035577FF375E1A15A11C5 /* Pods-HttpRequest-iOS-JsonSerializer-dummy.m in Sources */,
+				4F151C0611E0D9A1AAEB06C4 /* String+Subscripting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DEC0D799B0959C26ADF7F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52936537BE62452CB1D75879 /* Pods-HttpRequest-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9F57135CBD93160485B670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8392C8D6B964192F316B17DD /* JsonMapper.swift in Sources */,
+				80C8D3136952CF0017847FA2 /* JsonSerializer+Deserialization.swift in Sources */,
+				FEB618BECA03A6F859235351 /* JsonSerializer+KeyMapping.swift in Sources */,
+				CA521E2017E5000A083E9D6F /* JsonSerializer+Mappers.swift in Sources */,
+				37E10552637D2514FA91DD05 /* JsonSerializer+Serialization.swift in Sources */,
+				6328A3CF1DB708F72546A3C7 /* JsonSerializer+Validation+Internal.swift in Sources */,
+				F2703FD1AA6BDB258162F083 /* JsonSerializer+Validation.swift in Sources */,
+				9F45756F88F251CBF2A9656E /* JsonSerializer.swift in Sources */,
+				1C1802387BEF95129EF4AE34 /* JsonValue.swift in Sources */,
+				E5804604D99D2869A497D9AD /* Mappers.swift in Sources */,
+				3BCEB8822E7AAD8A9B92AC68 /* Pods-HttpRequest-OSX-JsonSerializer-dummy.m in Sources */,
+				091936C9CE2CD9AC9671A4BF /* String+Subscripting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4883A8AB8F5F8F3666CC4646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8DE6F6C551707F89F2AB94 /* JsonMapper.swift in Sources */,
+				F1E0BE9BFDD947FDE11FD4E1 /* JsonSerializer+Deserialization.swift in Sources */,
+				90B049B8F2FF9368CE4B3225 /* JsonSerializer+KeyMapping.swift in Sources */,
+				97D8D6E212998BA977AF39D3 /* JsonSerializer+Mappers.swift in Sources */,
+				609BB01157F97491403424B5 /* JsonSerializer+Serialization.swift in Sources */,
+				AADC922B76C0DC31F93060D9 /* JsonSerializer+Validation+Internal.swift in Sources */,
+				37D8CF480E40714F888430D9 /* JsonSerializer+Validation.swift in Sources */,
+				87CA9A75309DF87BC0E2DB30 /* JsonSerializer.swift in Sources */,
+				3B8B12D52774DED3F4138A0E /* JsonValue.swift in Sources */,
+				6DB0520BFC8255CF25606D07 /* Mappers.swift in Sources */,
+				0013D90185556B2D0F807E3F /* Pods-HttpRequestTests-JsonSerializer-dummy.m in Sources */,
+				A9C070A4B9163A0D9B65030B /* String+Subscripting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5B1C53FE4C7EAFA8BEC839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A561434C9D6AF89CAFDD098C /* Pods-HttpRequest-OSX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E134B9A7272FD7BE2AF88D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B5AC1E26B1B7DF6C5EF5AD /* Pods-HttpRequestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		037870DAE56B7EA0CA9C6A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HttpRequest-iOS-JsonSerializer";
+			target = 64BD9C328EE02D9C6DE33539 /* Pods-HttpRequest-iOS-JsonSerializer */;
+			targetProxy = 6E6682AA5C46783726E48909 /* PBXContainerItemProxy */;
+		};
+		796E7C31E7587740A039F3FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HttpRequest-OSX-JsonSerializer";
+			target = D7CCE250188B60AAA7068938 /* Pods-HttpRequest-OSX-JsonSerializer */;
+			targetProxy = 099100581C4598D0A657AE5E /* PBXContainerItemProxy */;
+		};
+		F120103CEA5419FB6747B4BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HttpRequestTests-JsonSerializer";
+			target = 4502BF6B81F3C9C207913D76 /* Pods-HttpRequestTests-JsonSerializer */;
+			targetProxy = 4B31BAA599963186B9CA0735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A72F7FE1B166263F7EC5931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31199B6C4178B87AAA4965B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5092687B4B330EC11E7523BC /* Pods-HttpRequestTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HttpRequestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HttpRequestTests/Pods-HttpRequestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HttpRequestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37688F281257921B7A879E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1E6F8538788A5C8C01352F /* Pods-HttpRequestTests-JsonSerializer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HttpRequestTests-JsonSerializer/Pods-HttpRequestTests-JsonSerializer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HttpRequestTests-JsonSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HttpRequestTests-JsonSerializer/Pods-HttpRequestTests-JsonSerializer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JsonSerializer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64D3A94CE4C1136F72647E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C1268AD143EDB5D0BB73BD /* Pods-HttpRequest-OSX-JsonSerializer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HttpRequest-OSX-JsonSerializer/Pods-HttpRequest-OSX-JsonSerializer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HttpRequest-OSX-JsonSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HttpRequest-OSX-JsonSerializer/Pods-HttpRequest-OSX-JsonSerializer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JsonSerializer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74194C2F1C36533E0DCA90D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9364275CE57A3E4B29D0128E /* Pods-HttpRequest-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HttpRequest-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HttpRequest-iOS/Pods-HttpRequest-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HttpRequest_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E82C7A57CEE1E38269BDAA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C1268AD143EDB5D0BB73BD /* Pods-HttpRequest-OSX-JsonSerializer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HttpRequest-OSX-JsonSerializer/Pods-HttpRequest-OSX-JsonSerializer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HttpRequest-OSX-JsonSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HttpRequest-OSX-JsonSerializer/Pods-HttpRequest-OSX-JsonSerializer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JsonSerializer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		910A9D3B1A289E0787BC2C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66E0F3CF5E828DFB5EDBC28 /* Pods-HttpRequestTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HttpRequestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HttpRequestTests/Pods-HttpRequestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HttpRequestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1753B766DB8DADB90CBCC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5E6060F2B5C13E3D3ED0AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3394D1EB90358093ABB67E97 /* Pods-HttpRequest-OSX.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HttpRequest-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HttpRequest-OSX/Pods-HttpRequest-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HttpRequest_OSX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C70D010215B722F9C6780A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C459E2D10495B1B45E4358 /* Pods-HttpRequest-iOS-JsonSerializer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HttpRequest-iOS-JsonSerializer/Pods-HttpRequest-iOS-JsonSerializer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HttpRequest-iOS-JsonSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HttpRequest-iOS-JsonSerializer/Pods-HttpRequest-iOS-JsonSerializer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JsonSerializer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C70D3C1B226A7B26BD7790EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C459E2D10495B1B45E4358 /* Pods-HttpRequest-iOS-JsonSerializer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HttpRequest-iOS-JsonSerializer/Pods-HttpRequest-iOS-JsonSerializer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HttpRequest-iOS-JsonSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HttpRequest-iOS-JsonSerializer/Pods-HttpRequest-iOS-JsonSerializer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JsonSerializer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA45069F627DB6521623D04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 083D4840D1FB327A98596011 /* Pods-HttpRequest-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HttpRequest-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HttpRequest-iOS/Pods-HttpRequest-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HttpRequest_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9668AD2FF07C552C60E8252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1E6F8538788A5C8C01352F /* Pods-HttpRequestTests-JsonSerializer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HttpRequestTests-JsonSerializer/Pods-HttpRequestTests-JsonSerializer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HttpRequestTests-JsonSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HttpRequestTests-JsonSerializer/Pods-HttpRequestTests-JsonSerializer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JsonSerializer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F22449824E02FDB32D2E0CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A31AE47A03227D5D9DC2F22 /* Pods-HttpRequest-OSX.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HttpRequest-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HttpRequest-OSX/Pods-HttpRequest-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HttpRequest_OSX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EB3C9FD1B879FF237DAD7FF /* Build configuration list for PBXNativeTarget "Pods-HttpRequest-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E6060F2B5C13E3D3ED0AF5 /* Debug */,
+				F22449824E02FDB32D2E0CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3229AF58F12C972F002EABDD /* Build configuration list for PBXNativeTarget "Pods-HttpRequest-iOS-JsonSerializer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70D3C1B226A7B26BD7790EA /* Debug */,
+				C70D010215B722F9C6780A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499F894388E25214BFFB998C /* Build configuration list for PBXNativeTarget "Pods-HttpRequestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910A9D3B1A289E0787BC2C08 /* Debug */,
+				31199B6C4178B87AAA4965B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1A6E9FBBF0983115A029842 /* Build configuration list for PBXNativeTarget "Pods-HttpRequest-OSX-JsonSerializer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E82C7A57CEE1E38269BDAA5 /* Debug */,
+				64D3A94CE4C1136F72647E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F482F6673A7A037380A62813 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1753B766DB8DADB90CBCC20 /* Debug */,
+				1A72F7FE1B166263F7EC5931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA202266D04DE6785F7AF81D /* Build configuration list for PBXNativeTarget "Pods-HttpRequest-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74194C2F1C36533E0DCA90D8 /* Debug */,
+				CA45069F627DB6521623D04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB457E02FE7D47F109CD513 /* Build configuration list for PBXNativeTarget "Pods-HttpRequestTests-JsonSerializer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9668AD2FF07C552C60E8252 /* Debug */,
+				37688F281257921B7A879E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A435B3DC8D53B79536E2A6E3 /* Project object */;
+}

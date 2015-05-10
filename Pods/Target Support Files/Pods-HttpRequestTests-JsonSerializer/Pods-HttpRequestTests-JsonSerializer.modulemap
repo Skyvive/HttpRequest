@@ -1,0 +1,6 @@
+framework module JsonSerializer {
+  umbrella header "Pods-HttpRequestTests-JsonSerializer-umbrella.h"
+
+  export *
+  module * { export * }
+}

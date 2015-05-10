@@ -7,28 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		426A828CD87B6AC73A166BBB /* Pods_HttpRequest_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5667F43CDE78D8AAB1B5176 /* Pods_HttpRequest_OSX.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		97427CB58E13CF4663B03F30 /* Pods_HttpRequest_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9A9D7B5D488C02FFFF46B1 /* Pods_HttpRequest_iOS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A20C38C81AE34F840036D1CA /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A20C38C71AE34F840036D1CA /* HttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A20C38CE1AE34F840036D1CA /* HttpRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20C38C21AE34F840036D1CA /* HttpRequest.framework */; };
-		A20C38D51AE34F840036D1CA /* HttpRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C38D41AE34F840036D1CA /* HttpRequestTests.swift */; };
+		A20C38FC1AE350040036D1CA /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A20C38C71AE34F840036D1CA /* HttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A20C38FE1AE3511C0036D1CA /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C38FD1AE3511C0036D1CA /* HttpRequest.swift */; };
+		A20C38FF1AE3511C0036D1CA /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C38FD1AE3511C0036D1CA /* HttpRequest.swift */; };
+		A21384C11AFEE30D0048501F /* HttpRequest+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21384C01AFEE30D0048501F /* HttpRequest+Logging.swift */; };
+		A21384C21AFEE30D0048501F /* HttpRequest+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21384C01AFEE30D0048501F /* HttpRequest+Logging.swift */; };
+		A21384C41AFEED5E0048501F /* HttpRequest.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A21384C31AFEED5E0048501F /* HttpRequest.podspec */; };
+		A21384C51AFEED5E0048501F /* HttpRequest.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A21384C31AFEED5E0048501F /* HttpRequest.podspec */; };
+		A21E318A1AE35A1700F5F175 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E31891AE35A1700F5F175 /* HttpResponse.swift */; };
+		A21E318B1AE35A1700F5F175 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E31891AE35A1700F5F175 /* HttpResponse.swift */; };
+		A21E318D1AE35C8F00F5F175 /* HttpRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E318C1AE35C8F00F5F175 /* HttpRequestBuilder.swift */; };
+		A21E318E1AE35C8F00F5F175 /* HttpRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E318C1AE35C8F00F5F175 /* HttpRequestBuilder.swift */; };
+		A21E319D1AE40AF000F5F175 /* HttpRequest+MakeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E319C1AE40AF000F5F175 /* HttpRequest+MakeRequest.swift */; };
+		A21E319E1AE40AF000F5F175 /* HttpRequest+MakeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E319C1AE40AF000F5F175 /* HttpRequest+MakeRequest.swift */; };
+		A21E31A81AE415B600F5F175 /* HttpRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21E31A71AE415B600F5F175 /* HttpRequestTests.swift */; };
+		A21E31A91AE415B600F5F175 /* HttpRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20C38C21AE34F840036D1CA /* HttpRequest.framework */; };
+		A2941DF21AFEC6B8006173FE /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2941DF11AFEC6B8006173FE /* HttpError.swift */; };
+		A2941DF31AFEC6B8006173FE /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2941DF11AFEC6B8006173FE /* HttpError.swift */; };
+		A2CF115F1AE708B400DA3C35 /* HttpRequest+Deserialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF115E1AE708B400DA3C35 /* HttpRequest+Deserialization.swift */; };
+		A2CF11601AE708B400DA3C35 /* HttpRequest+Deserialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF115E1AE708B400DA3C35 /* HttpRequest+Deserialization.swift */; };
+		A2CF11621AE7090300DA3C35 /* HttpRequest+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF11611AE7090300DA3C35 /* HttpRequest+Serialization.swift */; };
+		A2CF11631AE7090300DA3C35 /* HttpRequest+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF11611AE7090300DA3C35 /* HttpRequest+Serialization.swift */; };
+		A2CF11651AE70CB800DA3C35 /* HttpRequest+SwiftArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF11641AE70CB800DA3C35 /* HttpRequest+SwiftArray.swift */; };
+		A2CF11661AE70CB800DA3C35 /* HttpRequest+SwiftArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF11641AE70CB800DA3C35 /* HttpRequest+SwiftArray.swift */; };
+		B1F2B357B92C88E1D64DF9AE /* Pods_HttpRequestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F487847EC96D39159CB0AF /* Pods_HttpRequestTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A20C38CF1AE34F840036D1CA /* PBXContainerItemProxy */ = {
+		A21E31AA1AE415B600F5F175 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A20C38B91AE34F840036D1CA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A20C38C11AE34F840036D1CA;
-			remoteInfo = HttpRequest;
+			remoteInfo = "HttpRequest-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1451835DD790F3D06683D250 /* Pods-HttpRequest-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpRequest-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-HttpRequest-OSX/Pods-HttpRequest-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		21342CA282F31C5951D7F116 /* Pods-HttpRequest-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpRequest-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HttpRequest-iOS/Pods-HttpRequest-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		467E46C9C7575B8038E66AF6 /* Pods-HttpRequestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpRequestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HttpRequestTests/Pods-HttpRequestTests.release.xcconfig"; sourceTree = "<group>"; };
+		90E1B158E6BF23576C473642 /* Pods-HttpRequest-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpRequest-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HttpRequest-OSX/Pods-HttpRequest-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		A20C38C21AE34F840036D1CA /* HttpRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HttpRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20C38C61AE34F840036D1CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20C38C71AE34F840036D1CA /* HttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
-		A20C38CD1AE34F840036D1CA /* HttpRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HttpRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A20C38D31AE34F840036D1CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A20C38D41AE34F840036D1CA /* HttpRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestTests.swift; sourceTree = "<group>"; };
+		A20C38E31AE34FB40036D1CA /* HttpRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HttpRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20C38FD1AE3511C0036D1CA /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		A21384C01AFEE30D0048501F /* HttpRequest+Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HttpRequest+Logging.swift"; sourceTree = "<group>"; };
+		A21384C31AFEED5E0048501F /* HttpRequest.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HttpRequest.podspec; sourceTree = "<group>"; };
+		A21E31891AE35A1700F5F175 /* HttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpResponse.swift; sourceTree = "<group>"; };
+		A21E318C1AE35C8F00F5F175 /* HttpRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequestBuilder.swift; sourceTree = "<group>"; };
+		A21E319C1AE40AF000F5F175 /* HttpRequest+MakeRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HttpRequest+MakeRequest.swift"; sourceTree = "<group>"; };
+		A21E31A31AE415B600F5F175 /* HttpRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HttpRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21E31A61AE415B600F5F175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21E31A71AE415B600F5F175 /* HttpRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestTests.swift; sourceTree = "<group>"; };
+		A2941DF11AFEC6B8006173FE /* HttpError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
+		A2CF115E1AE708B400DA3C35 /* HttpRequest+Deserialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HttpRequest+Deserialization.swift"; sourceTree = "<group>"; };
+		A2CF11611AE7090300DA3C35 /* HttpRequest+Serialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HttpRequest+Serialization.swift"; sourceTree = "<group>"; };
+		A2CF11641AE70CB800DA3C35 /* HttpRequest+SwiftArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HttpRequest+SwiftArray.swift"; sourceTree = "<group>"; };
+		A6F487847EC96D39159CB0AF /* Pods_HttpRequestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HttpRequestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9A9D7B5D488C02FFFF46B1 /* Pods_HttpRequest_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HttpRequest_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40CED04EEBC566B9CDA0E74 /* Pods-HttpRequest-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpRequest-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HttpRequest-iOS/Pods-HttpRequest-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		ECDFA7DD529E02414B48D7CF /* Pods-HttpRequestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpRequestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HttpRequestTests/Pods-HttpRequestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5667F43CDE78D8AAB1B5176 /* Pods_HttpRequest_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HttpRequest_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,26 +80,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97427CB58E13CF4663B03F30 /* Pods_HttpRequest_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A20C38CA1AE34F840036D1CA /* Frameworks */ = {
+		A20C38DF1AE34FB40036D1CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A20C38CE1AE34F840036D1CA /* HttpRequest.framework in Frameworks */,
+				426A828CD87B6AC73A166BBB /* Pods_HttpRequest_OSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21E31A01AE415B600F5F175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21E31A91AE415B600F5F175 /* HttpRequest.framework in Frameworks */,
+				B1F2B357B92C88E1D64DF9AE /* Pods_HttpRequestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		790C1E8CCD7E6684A3DC8CDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5667F43CDE78D8AAB1B5176 /* Pods_HttpRequest_OSX.framework */,
+				CB9A9D7B5D488C02FFFF46B1 /* Pods_HttpRequest_iOS.framework */,
+				A6F487847EC96D39159CB0AF /* Pods_HttpRequestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A20C38B81AE34F840036D1CA = {
 			isa = PBXGroup;
 			children = (
+				A21384C31AFEED5E0048501F /* HttpRequest.podspec */,
 				A20C38C41AE34F840036D1CA /* HttpRequest */,
-				A20C38D11AE34F840036D1CA /* HttpRequestTests */,
+				A21E31A41AE415B600F5F175 /* HttpRequestTests */,
 				A20C38C31AE34F840036D1CA /* Products */,
+				B658AFC1D7AFD914EF08C190 /* Pods */,
+				790C1E8CCD7E6684A3DC8CDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,7 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				A20C38C21AE34F840036D1CA /* HttpRequest.framework */,
-				A20C38CD1AE34F840036D1CA /* HttpRequestTests.xctest */,
+				A20C38E31AE34FB40036D1CA /* HttpRequest.framework */,
+				A21E31A31AE415B600F5F175 /* HttpRequestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +140,11 @@
 			isa = PBXGroup;
 			children = (
 				A20C38C71AE34F840036D1CA /* HttpRequest.h */,
+				A20C38FD1AE3511C0036D1CA /* HttpRequest.swift */,
+				A21E318C1AE35C8F00F5F175 /* HttpRequestBuilder.swift */,
+				A21E31891AE35A1700F5F175 /* HttpResponse.swift */,
+				A2941DF11AFEC6B8006173FE /* HttpError.swift */,
+				A21E31981AE4069400F5F175 /* Internal */,
 				A20C38C51AE34F840036D1CA /* Supporting Files */,
 			);
 			path = HttpRequest;
@@ -85,21 +158,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A20C38D11AE34F840036D1CA /* HttpRequestTests */ = {
+		A21E31981AE4069400F5F175 /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				A20C38D41AE34F840036D1CA /* HttpRequestTests.swift */,
-				A20C38D21AE34F840036D1CA /* Supporting Files */,
+				A21E319C1AE40AF000F5F175 /* HttpRequest+MakeRequest.swift */,
+				A2CF115E1AE708B400DA3C35 /* HttpRequest+Deserialization.swift */,
+				A2CF11611AE7090300DA3C35 /* HttpRequest+Serialization.swift */,
+				A2CF11641AE70CB800DA3C35 /* HttpRequest+SwiftArray.swift */,
+				A21384C01AFEE30D0048501F /* HttpRequest+Logging.swift */,
+			);
+			name = Internal;
+			sourceTree = "<group>";
+		};
+		A21E31A41AE415B600F5F175 /* HttpRequestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A21E31A71AE415B600F5F175 /* HttpRequestTests.swift */,
+				A21E31A51AE415B600F5F175 /* Supporting Files */,
 			);
 			path = HttpRequestTests;
 			sourceTree = "<group>";
 		};
-		A20C38D21AE34F840036D1CA /* Supporting Files */ = {
+		A21E31A51AE415B600F5F175 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A20C38D31AE34F840036D1CA /* Info.plist */,
+				A21E31A61AE415B600F5F175 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B658AFC1D7AFD914EF08C190 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90E1B158E6BF23576C473642 /* Pods-HttpRequest-OSX.debug.xcconfig */,
+				1451835DD790F3D06683D250 /* Pods-HttpRequest-OSX.release.xcconfig */,
+				21342CA282F31C5951D7F116 /* Pods-HttpRequest-iOS.debug.xcconfig */,
+				D40CED04EEBC566B9CDA0E74 /* Pods-HttpRequest-iOS.release.xcconfig */,
+				ECDFA7DD529E02414B48D7CF /* Pods-HttpRequestTests.debug.xcconfig */,
+				467E46C9C7575B8038E66AF6 /* Pods-HttpRequestTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,43 +211,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A20C38E01AE34FB40036D1CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20C38FC1AE350040036D1CA /* HttpRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A20C38C11AE34F840036D1CA /* HttpRequest */ = {
+		A20C38C11AE34F840036D1CA /* HttpRequest-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A20C38D81AE34F840036D1CA /* Build configuration list for PBXNativeTarget "HttpRequest" */;
+			buildConfigurationList = A20C38D81AE34F840036D1CA /* Build configuration list for PBXNativeTarget "HttpRequest-iOS" */;
 			buildPhases = (
+				DAE5AAF9DC1D5D7F433A2864 /* Check Pods Manifest.lock */,
 				A20C38BD1AE34F840036D1CA /* Sources */,
 				A20C38BE1AE34F840036D1CA /* Frameworks */,
 				A20C38BF1AE34F840036D1CA /* Headers */,
 				A20C38C01AE34F840036D1CA /* Resources */,
+				560F9026995E76C484192FEB /* Embed Pods Frameworks */,
+				5D01961EA8D9F0127FF521EF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HttpRequest;
+			name = "HttpRequest-iOS";
 			productName = HttpRequest;
 			productReference = A20C38C21AE34F840036D1CA /* HttpRequest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A20C38CC1AE34F840036D1CA /* HttpRequestTests */ = {
+		A20C38E21AE34FB40036D1CA /* HttpRequest-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A20C38DB1AE34F840036D1CA /* Build configuration list for PBXNativeTarget "HttpRequestTests" */;
+			buildConfigurationList = A20C38F61AE34FB40036D1CA /* Build configuration list for PBXNativeTarget "HttpRequest-OSX" */;
 			buildPhases = (
-				A20C38C91AE34F840036D1CA /* Sources */,
-				A20C38CA1AE34F840036D1CA /* Frameworks */,
-				A20C38CB1AE34F840036D1CA /* Resources */,
+				EE194526BEDE544F04183618 /* Check Pods Manifest.lock */,
+				A20C38DE1AE34FB40036D1CA /* Sources */,
+				A20C38DF1AE34FB40036D1CA /* Frameworks */,
+				A20C38E01AE34FB40036D1CA /* Headers */,
+				A20C38E11AE34FB40036D1CA /* Resources */,
+				80088B0BB3A981C7C7D7032F /* Embed Pods Frameworks */,
+				E32F654829281C36A69A5DCC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A20C38D01AE34F840036D1CA /* PBXTargetDependency */,
+			);
+			name = "HttpRequest-OSX";
+			productName = HttpRequest;
+			productReference = A20C38E31AE34FB40036D1CA /* HttpRequest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A21E31A21AE415B600F5F175 /* HttpRequestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21E31AC1AE415B600F5F175 /* Build configuration list for PBXNativeTarget "HttpRequestTests" */;
+			buildPhases = (
+				87C27AE26FA10A2C21A81522 /* Check Pods Manifest.lock */,
+				A21E319F1AE415B600F5F175 /* Sources */,
+				A21E31A01AE415B600F5F175 /* Frameworks */,
+				A21E31A11AE415B600F5F175 /* Resources */,
+				C27F688FB0CB09CFE78CC0EC /* Embed Pods Frameworks */,
+				A0C9E70776CFB0CB446741C2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A21E31AB1AE415B600F5F175 /* PBXTargetDependency */,
 			);
 			name = HttpRequestTests;
 			productName = HttpRequestTests;
-			productReference = A20C38CD1AE34F840036D1CA /* HttpRequestTests.xctest */;
+			productReference = A21E31A31AE415B600F5F175 /* HttpRequestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +297,10 @@
 					A20C38C11AE34F840036D1CA = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					A20C38CC1AE34F840036D1CA = {
+					A20C38E21AE34FB40036D1CA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A21E31A21AE415B600F5F175 = {
 						CreatedOnToolsVersion = 6.3;
 					};
 				};
@@ -181,8 +317,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A20C38C11AE34F840036D1CA /* HttpRequest */,
-				A20C38CC1AE34F840036D1CA /* HttpRequestTests */,
+				A20C38C11AE34F840036D1CA /* HttpRequest-iOS */,
+				A20C38E21AE34FB40036D1CA /* HttpRequest-OSX */,
+				A21E31A21AE415B600F5F175 /* HttpRequestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,10 +329,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A21384C41AFEED5E0048501F /* HttpRequest.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A20C38CB1AE34F840036D1CA /* Resources */ = {
+		A20C38E11AE34FB40036D1CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21384C51AFEED5E0048501F /* HttpRequest.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21E31A11AE415B600F5F175 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,29 +350,192 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		560F9026995E76C484192FEB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HttpRequest-iOS/Pods-HttpRequest-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D01961EA8D9F0127FF521EF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HttpRequest-iOS/Pods-HttpRequest-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80088B0BB3A981C7C7D7032F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HttpRequest-OSX/Pods-HttpRequest-OSX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C27AE26FA10A2C21A81522 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C9E70776CFB0CB446741C2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HttpRequestTests/Pods-HttpRequestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27F688FB0CB09CFE78CC0EC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HttpRequestTests/Pods-HttpRequestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE5AAF9DC1D5D7F433A2864 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E32F654829281C36A69A5DCC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HttpRequest-OSX/Pods-HttpRequest-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE194526BEDE544F04183618 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A20C38BD1AE34F840036D1CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2CF11621AE7090300DA3C35 /* HttpRequest+Serialization.swift in Sources */,
+				A21384C11AFEE30D0048501F /* HttpRequest+Logging.swift in Sources */,
+				A2CF115F1AE708B400DA3C35 /* HttpRequest+Deserialization.swift in Sources */,
+				A21E319D1AE40AF000F5F175 /* HttpRequest+MakeRequest.swift in Sources */,
+				A2CF11651AE70CB800DA3C35 /* HttpRequest+SwiftArray.swift in Sources */,
+				A2941DF21AFEC6B8006173FE /* HttpError.swift in Sources */,
+				A21E318A1AE35A1700F5F175 /* HttpResponse.swift in Sources */,
+				A21E318D1AE35C8F00F5F175 /* HttpRequestBuilder.swift in Sources */,
+				A20C38FE1AE3511C0036D1CA /* HttpRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A20C38C91AE34F840036D1CA /* Sources */ = {
+		A20C38DE1AE34FB40036D1CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A20C38D51AE34F840036D1CA /* HttpRequestTests.swift in Sources */,
+				A2CF11631AE7090300DA3C35 /* HttpRequest+Serialization.swift in Sources */,
+				A21384C21AFEE30D0048501F /* HttpRequest+Logging.swift in Sources */,
+				A2CF11601AE708B400DA3C35 /* HttpRequest+Deserialization.swift in Sources */,
+				A21E319E1AE40AF000F5F175 /* HttpRequest+MakeRequest.swift in Sources */,
+				A2CF11661AE70CB800DA3C35 /* HttpRequest+SwiftArray.swift in Sources */,
+				A2941DF31AFEC6B8006173FE /* HttpError.swift in Sources */,
+				A21E318B1AE35A1700F5F175 /* HttpResponse.swift in Sources */,
+				A21E318E1AE35C8F00F5F175 /* HttpRequestBuilder.swift in Sources */,
+				A20C38FF1AE3511C0036D1CA /* HttpRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21E319F1AE415B600F5F175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21E31A81AE415B600F5F175 /* HttpRequestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A20C38D01AE34F840036D1CA /* PBXTargetDependency */ = {
+		A21E31AB1AE415B600F5F175 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A20C38C11AE34F840036D1CA /* HttpRequest */;
-			targetProxy = A20C38CF1AE34F840036D1CA /* PBXContainerItemProxy */;
+			target = A20C38C11AE34F840036D1CA /* HttpRequest-iOS */;
+			targetProxy = A21E31AA1AE415B600F5F175 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -322,7 +631,9 @@
 		};
 		A20C38D91AE34F840036D1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21342CA282F31C5951D7F116 /* Pods-HttpRequest-iOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -330,14 +641,17 @@
 				INFOPLIST_FILE = HttpRequest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HttpRequest;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		A20C38DA1AE34F840036D1CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40CED04EEBC566B9CDA0E74 /* Pods-HttpRequest-iOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -345,13 +659,70 @@
 				INFOPLIST_FILE = HttpRequest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HttpRequest;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		A20C38DC1AE34F840036D1CA /* Debug */ = {
+		A20C38F71AE34FB40036D1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E1B158E6BF23576C473642 /* Pods-HttpRequest-OSX.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HttpRequest/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = HttpRequest;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A20C38F81AE34FB40036D1CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1451835DD790F3D06683D250 /* Pods-HttpRequest-OSX.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = HttpRequest/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = HttpRequest;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A21E31AD1AE415B600F5F175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECDFA7DD529E02414B48D7CF /* Pods-HttpRequestTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -367,8 +738,9 @@
 			};
 			name = Debug;
 		};
-		A20C38DD1AE34F840036D1CA /* Release */ = {
+		A21E31AE1AE415B600F5F175 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467E46C9C7575B8038E66AF6 /* Pods-HttpRequestTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -392,21 +764,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A20C38D81AE34F840036D1CA /* Build configuration list for PBXNativeTarget "HttpRequest" */ = {
+		A20C38D81AE34F840036D1CA /* Build configuration list for PBXNativeTarget "HttpRequest-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A20C38D91AE34F840036D1CA /* Debug */,
 				A20C38DA1AE34F840036D1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A20C38DB1AE34F840036D1CA /* Build configuration list for PBXNativeTarget "HttpRequestTests" */ = {
+		A20C38F61AE34FB40036D1CA /* Build configuration list for PBXNativeTarget "HttpRequest-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A20C38DC1AE34F840036D1CA /* Debug */,
-				A20C38DD1AE34F840036D1CA /* Release */,
+				A20C38F71AE34FB40036D1CA /* Debug */,
+				A20C38F81AE34FB40036D1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21E31AC1AE415B600F5F175 /* Build configuration list for PBXNativeTarget "HttpRequestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21E31AD1AE415B600F5F175 /* Debug */,
+				A21E31AE1AE415B600F5F175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
