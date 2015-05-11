@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E55737C1-B78C-4007-B44F-8FA545979088</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HttpRequest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0F41CBA5622A1EE849D0CE62375F5EB9F671F4D1</key>
+		<string>https://github.com/Skyvive/JsonSerializer.git</string>
+		<key>59B4AA16B4724080E3C929601B0D45807246C0BB</key>
+		<string>https://github.com/Skyvive/HttpRequest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HttpRequest.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0F41CBA5622A1EE849D0CE62375F5EB9F671F4D1</key>
+		<string>../../JsonSerializer</string>
+		<key>59B4AA16B4724080E3C929601B0D45807246C0BB</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Skyvive/HttpRequest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>59B4AA16B4724080E3C929601B0D45807246C0BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>59B4AA16B4724080E3C929601B0D45807246C0BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HttpRequest</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0F41CBA5622A1EE849D0CE62375F5EB9F671F4D1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JsonSerializer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

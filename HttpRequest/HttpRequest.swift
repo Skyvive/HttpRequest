@@ -23,9 +23,9 @@ extension String: DataConvertible {}
 extension Array: DataConvertible {} // Must be an array of DataConvertible objects
 
 public class HttpRequest<T: DataConvertible> {
-    public typealias CompletionCallback = (HttpResponse<T>?, HttpError<T>?) -> ()
+    public typealias CompletionCallback = (HttpResponse<T>?, HttpError?) -> ()
     public typealias SuccessCallback = (HttpResponse<T>) -> ()
-    public typealias FailureCallback = (HttpError<T>) -> ()
+    public typealias FailureCallback = (HttpError) -> ()
     public var loggingEnabled = false
     public var method: String = "GET"
     public var basePath: String = ""

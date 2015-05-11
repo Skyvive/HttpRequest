@@ -18,7 +18,7 @@ extension HttpRequest {
                 let responseTime = NSDate().timeIntervalSinceDate(startTime)
                 self.logResponse(response, request: request, responseTime: responseTime, data: data)
                 if error != nil {
-                    self.throwError(HttpError(error: error, request: self, data: data, response: response, description: nil))
+                    self.throwError(HttpError(error: error, request: request, data: data, response: response, description: nil))
                 } else if let response = response as? NSHTTPURLResponse where response.statusCode >= 200 && response.statusCode < 300 {
                     var error: NSError?
                     if let object = self.objectForData(data, error: &error) {
@@ -26,18 +26,18 @@ extension HttpRequest {
                         self.completion?(httpResponse, nil)
                         self.success?(httpResponse)
                     } else if let error = error {
-                        self.throwError(HttpError(error: error, request: self, data: data, response: response, description: nil))
+                        self.throwError(HttpError(error: error, request: request, data: data, response: response, description: nil))
                     } else {
-                        self.throwError(HttpError(error: nil, request: self, data: data, response: response, description: "Failed for to deserialize data. Request type T may be unsupported."))
+                        self.throwError(HttpError(error: nil, request: request, data: data, response: response, description: "Failed for to deserialize data. Request type T may be unsupported."))
                     }
                 } else {
-                    self.throwError(HttpError(error: error, request: self, data: data, response: response, description: "Failed for unknown reason: status code does not fall between 200-299"))
+                    self.throwError(HttpError(error: error, request: request, data: data, response: response, description: "Failed for unknown reason: status code does not fall between 200-299"))
                 }
             })
         }
     }
     
-    func throwError(error: HttpError<T>) {
+    func throwError(error: HttpError) {
         self.completion?(nil, error)
         self.failure?(error)
     }
@@ -46,13 +46,14 @@ extension HttpRequest {
         get {
             if let url = url {
                 let request = NSMutableURLRequest(URL: url)
+                request.HTTPMethod = method
                 request.allHTTPHeaderFields = headers
                 request.HTTPBody = dataBody
                 request.timeoutInterval = timeoutInterval ?? request.timeoutInterval
                 request.cachePolicy = cachePolicy ?? request.cachePolicy
                 return request
             } else {
-                self.throwError(HttpError(request: self, description: "Failed to create request. Something may be wrong with request url: " + urlString))
+                self.throwError(HttpError(request: nil, description: "Failed to create request. Something may be wrong with request url: " + urlString))
                 return nil
             }
         }

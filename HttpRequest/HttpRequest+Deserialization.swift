@@ -25,14 +25,14 @@ extension HttpRequest {
             case is NSArray.Type: return jsonObjectWithData(data, error: &error)
             case is NSObject.Type: return deserializedObjectForData(data, error: &error)
             default:
-                error = HttpError(request: self, description: "Error: Type \(T.self) is unsupported")
+                error = HttpError(request: nil, description: "Error: Type \(T.self) is unsupported")
                 return nil
             }
         } else {
             switch (T.self) {
             case is NSNull.Type: return NSNull() as? T
             default:
-                error = HttpError(request: self, description: "Error: No data returned by request. If expecting no body, set request type T as NSNull.")
+                error = HttpError(request: nil, description: "Error: No data returned by request. If expecting no body, set request type T as NSNull.")
                 return nil
             }
         }
@@ -58,11 +58,11 @@ extension HttpRequest {
             if JsonSerializer.validateObject(object) {
                 return object
             } else {
-                error = HttpError(request: self, description: "Failed to deserialize required property keys: \(JsonSerializer.requiredKeysMissingFromObject(object))")
+                error = HttpError(request: nil, description: "Failed to deserialize required property keys: \(JsonSerializer.requiredKeysMissingFromObject(object))")
                 return nil
             }
         } else {
-            error = HttpError(request: self, description: "Required JSON keys are missing from dictionary: \(JsonSerializer.requiredKeysMissingFromDictionary(dictionary, forObject: object))")
+            error = HttpError(request: nil, description: "Required JSON keys are missing from dictionary: \(JsonSerializer.requiredKeysMissingFromDictionary(dictionary, forObject: object))")
             return nil
         }
     }

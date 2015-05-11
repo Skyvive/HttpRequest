@@ -26,7 +26,7 @@ extension HttpRequest {
                             return nil
                         }
                     } else {
-                        error = HttpError(request: self, description: "Error: Non-dictionary object in JSON array. Unable to convert to NSObject.")
+                        error = HttpError(request: nil, description: "Error: Non-dictionary object in JSON array. Unable to convert to NSObject.")
                         return nil
                     }
                 }
@@ -35,7 +35,7 @@ extension HttpRequest {
                 return nil
             }
         } else {
-            error = HttpError(request: self, description: "Error: Unable to find array element type T, must a valid NSObject subclass.")
+            error = HttpError(request: nil, description: "Error: Unable to find array element type T, must a valid NSObject subclass.")
             return nil
         }
     }

@@ -10,9 +10,9 @@ import Foundation
 
 public class HttpRequestBuilder<T: DataConvertible> {
     
-    public typealias CompletionCallback = (HttpResponse<T>?, HttpError<T>?) -> ()
+    public typealias CompletionCallback = (HttpResponse<T>?, HttpError?) -> ()
     public typealias SuccessCallback = (HttpResponse<T>) -> ()
-    public typealias FailureCallback = (HttpError<T>) -> ()
+    public typealias FailureCallback = (HttpError) -> ()
     
     let httpRequest: HttpRequest<T>
     var hasMadeRequest = false
@@ -21,6 +21,12 @@ public class HttpRequestBuilder<T: DataConvertible> {
         httpRequest = HttpRequest<T>()
         httpRequest.method = method
         httpRequest.basePath = basePath
+    }
+    
+    init(method: String, webService: WebService) {
+        httpRequest = HttpRequest<T>()
+        httpRequest.method = method
+        webService.loadSettingsIntoRequest(httpRequest)
     }
     
     public func logging(loggingEnabled: Bool) -> Self {
@@ -95,12 +101,20 @@ public class GET<T: DataConvertible>: HttpRequestBuilder<T> {
         super.init(method: "GET", basePath: basePath)
     }
     
+    public init(_ webService: WebService.Type) {
+        super.init(method: "GET", webService: webService())
+    }
+    
 }
 
 public class POST<T: DataConvertible>: HttpRequestBuilder<T> {
     
     public init(_ basePath: String) {
         super.init(method: "POST", basePath: basePath)
+    }
+    
+    public init(_ webService: WebService.Type) {
+        super.init(method: "POST", webService: webService())
     }
     
 }
@@ -111,6 +125,10 @@ public class PUT<T: DataConvertible>: HttpRequestBuilder<T> {
         super.init(method: "PUT", basePath: basePath)
     }
     
+    public init(_ webService: WebService.Type) {
+        super.init(method: "PUT", webService: webService())
+    }
+    
 }
 
 public class PATCH<T: DataConvertible>: HttpRequestBuilder<T> {
@@ -119,12 +137,20 @@ public class PATCH<T: DataConvertible>: HttpRequestBuilder<T> {
         super.init(method: "PATCH", basePath: basePath)
     }
     
+    public init(_ webService: WebService.Type) {
+        super.init(method: "PATCH", webService: webService())
+    }
+    
 }
 
 public class DELETE<T: DataConvertible>: HttpRequestBuilder<T> {
     
     public init(_ basePath: String) {
         super.init(method: "DELETE", basePath: basePath)
+    }
+    
+    public init(_ webService: WebService.Type) {
+        super.init(method: "DELETE", webService: webService())
     }
     
 }

@@ -8,14 +8,14 @@
 
 import Foundation
 
-let HttpErrorRequestKey = "HttpErrorRequestKey" // Key to access HttpRequest<T>
+let HttpErrorRequestKey = "HttpErrorRequestKey" // Key to access NSURLRequest
 let HttpErrorDataKey = "HttpErrorDataKey" // Key to access NSData
 let HttpErrorBodyKey = "HttpErrorBodyKey" // Key to access string represenation of NSData
 let HttpErrorResponseKey = "HttpErrorResponseKey" // Key to access NSURLResponse
 
-public class HttpError<T: DataConvertible>: NSError {
+public class HttpError: NSError {
     
-    var request: HttpRequest<T>? { return objectForKey(HttpErrorRequestKey) as? HttpRequest<T> }
+    var request: NSURLRequest? { return objectForKey(HttpErrorRequestKey) as? NSURLRequest }
     var data: NSData? { return objectForKey(HttpErrorDataKey) as? NSData }
     var body: NSString? { return objectForKey(HttpErrorBodyKey) as? NSString }
     var response: NSURLResponse? { return objectForKey(HttpErrorResponseKey) as? NSURLResponse }
@@ -28,7 +28,7 @@ public class HttpError<T: DataConvertible>: NSError {
         }
     }
     
-    init(error: NSError?, request: HttpRequest<T>?, data: NSData?, response: NSURLResponse?, description: String?) {
+    init(error: NSError?, request: NSURLRequest?, data: NSData?, response: NSURLResponse?, description: String?) {
         var userInfo = NSMutableDictionary()
         userInfo.safeSetValue(request, forKey: HttpErrorRequestKey)
         userInfo.safeSetValue(data, forKey: HttpErrorDataKey)
@@ -53,7 +53,7 @@ public class HttpError<T: DataConvertible>: NSError {
 
 extension HttpError {
     
-    convenience init(request: HttpRequest<T>?, description: String?) {
+    convenience init(request: NSURLRequest?, description: String?) {
         self.init(error: nil, request: request, data: nil, response: nil, description: description)
     }
     
